@@ -15,10 +15,22 @@ var_dump($value3);
 
 $value = true;
 if ($value){
-    echo '<br><br> Everything is ok!';
+    echo '<br><br> Everything is ok! <br><br>';
 }
 else {
-    echo '<br><br> Everything is not ok';
+    echo '<br><br> Everything is not ok <br><br>';
 };
+
+$num = 2;
+if ($num > 6) {
+    echo $num.' is greater than 6';
+}
+elseif (10 < 5) {
+    echo '10 is less than 5';
+}
+else {
+    echo "wrong";
+};
+?>
 
 
