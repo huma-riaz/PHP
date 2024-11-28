@@ -24,7 +24,19 @@ if (is_array($students)){
     //FOR LAST ELEMENT:
     array_pop($students);
     print_r($students);
-    echo '<br>'; 
+    echo '<br><br>'; 
 
+    // FOREACH:
+    $Student = ['Huma ', 'Laiba ', 'Amna ', 'Sadaf ', 'Shiza '];
+    echo $Student[0];
+    echo $Student[1];
+    echo $Student[3];
+    echo $Student[4];
+    echo '<br><br>';
 
+    foreach($Student as $std){
+    echo $std. '<br>';
+  };
+
+  
 ?>
