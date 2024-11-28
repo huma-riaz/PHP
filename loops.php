@@ -46,19 +46,6 @@ echo '<br> <b> Break: </b> <br>';
  };
 print '--------------------------------<br><br>';
 
-
-$students = ['Ali','Shayan','Huzaifa','Kamran','Maaz'];
-
- echo $students[0];
- echo $students[1];
- echo $students[2];
- echo $students[3];
-
-foreach($students as $std){
-        echo $std;
-        echo "<br>";
-};
-
-
+print 'XXX----XXX----XXX';
 
 ?>
