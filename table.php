@@ -1,6 +1,6 @@
 <?php
 
-echo '<h1>TABLES: </h1>';
+echo '<b>TABLES: </b> <br><br>';
 echo 'Table Of 2: <br><br>';
 $table = 2 ;
 $end = 10;

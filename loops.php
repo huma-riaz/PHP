@@ -48,4 +48,20 @@ print '--------------------------------<br><br>';
 
 print 'XXX----XXX----XXX';
 
+
+$cities = ['Pakistan ', 'America ', 'London ', 'Mombay ', 'Canada ', 
+'Islamabad ','Paris ', 'Multan ', 'Kashmir '];
+
+ function value($val){
+
+    foreach($val as $std){
+
+        if($std == 'London'){
+            continue;
+        }
+        echo 'City: '. $std . '<br>';
+    }
+ };
+ value($cities);
+
 ?>
