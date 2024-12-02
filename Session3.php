@@ -1,5 +1,5 @@
 <?php
-$day = 'Sunday';
+$day = 'Monday';
 switch ($day){
     case 'Sunday';
     echo 'Today is Sunday';

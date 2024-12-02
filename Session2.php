@@ -18,10 +18,11 @@ if ($value){
     echo '<br><br> Everything is ok! <br><br>';
 }
 else {
-    echo '<br><br> Everything is not ok <br><br>';
+    echo '<br><br> Everything is not ok! <br><br>';
 };
 
-$num = 2;
+
+$num = 8;
 if ($num > 6) {
     echo $num.' is greater than 6';
 }
