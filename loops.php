@@ -46,22 +46,21 @@ echo '<br> <b> Break: </b> <br>';
  };
 print '--------------------------------<br><br>';
 
-print 'XXX----XXX----XXX';
+print 'XXX----XXX----XXX <br>';
 
 
 $cities = ['Pakistan ', 'America ', 'London ', 'Mombay ', 'Canada ', 
 'Islamabad ','Paris ', 'Multan ', 'Kashmir '];
 
- function value($val){
-
-    foreach($val as $std){
-
-        if($std == 'London'){
+function Welcome($val){
+    foreach($val as $std) {
+        if ($std == 'London'){
             continue;
         }
-        echo 'City: '. $std . '<br>';
+        echo 'City: ' . $std . '<br>';
     }
- };
- value($cities);
+};
+Welcome($cities);
+
 
 ?>
