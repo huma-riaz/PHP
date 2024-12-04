@@ -49,12 +49,12 @@ print '--------------------------------<br><br>';
 print 'XXX----XXX----XXX <br>';
 
 
-$cities = ['Pakistan ', 'America ', 'London ', 'Mombay ', 'Canada ', 
-'Islamabad ','Paris ', 'Multan ', 'Kashmir '];
+$cities = ['Pakistan', 'America', 'London', 'Mombay', 'Canada', 
+'Islamabad','Paris', 'Multan', 'Kashmir'];
 
 function Welcome($val){
     foreach($val as $std) {
-        if ($std == 'London'){
+        if ($std == 'Pakistan'){
             continue;
         }
         echo 'City: ' . $std . '<br>';
