@@ -6,6 +6,9 @@ echo '<br><br><br><br>';
 $name = $_POST['name'];
 echo 'My name is ' . $name .'<br><br>';
 
+$age = $_POST['age'];
+echo 'My age is ' . $age . '<br><br>';
+
 $email = $_POST['email'];
 echo 'This is my email:  ' . $email .'<br><br>';
 
