@@ -6,28 +6,27 @@
 <body>
     <h1>Form Handling</h1>
 
-    <form action="" method="post">
-        <input type="text" name="name" placeholder="First Name" required>
-        <input type="text" name="name" placeholder="Last Name"> <br><br>
+    <form action="./form.php" method="post">
+        <input type="text" name="name" placeholder="First Name" required> <br><br>
         <input type="text" name="id" placeholder="Student ID" required> <br><br>
         <input type="text" name="email" placeholder="Enter Your Email" required> <br><br>
         <input type="text" name="password" placeholder="Password" required> <br><br><br>
 
         
         <b>Gender:</b> <br>
-        <input type="radio" name="gender"><span>Male</span> <br>
-        <input type="radio" name="gender"><span>Female</span> <br><br>
+        <input type="radio" name="gender" value="male"><span>Male</span> <br>
+        <input type="radio" name="gender" value="female"><span>Female</span> <br><br>
 
 
         <b>SKILLS:</b> <br>
-        <input type="checkbox" name="skills[]"><span>HTML</span> <br>
-        <input type="checkbox" name="skills[]"><span>CSS</span> <br>
-        <input type="checkbox" name="skills[]"><span>JAVA</span> <br>
-        <input type="checkbox" name="skills[]"><span>PHP</span> <br>
-        <input type="checkbox" name="skills[]"><span>PHYTON</span> <br><br>
+        <input type="checkbox" name="skills[]" value="html"><span>HTML</span> <br>
+        <input type="checkbox" name="skills[]" value="css"><span>CSS</span> <br>
+        <input type="checkbox" name="skills[]" value="java"><span>JAVA</span> <br>
+        <input type="checkbox" name="skills[]" value="php"><span>PHP</span> <br>
+        <input type="checkbox" name="skills[]" value="phython"><span>PHYTON</span> <br><br>
 
 
-        <select name="City:">
+        <select name="city">
             <option>Select Your City</option>
             <option value="Karachi">Karachi</option>
             <option value="Gujrat">Gujrat</option>
@@ -37,7 +36,7 @@
         </select> <br><br>
 
 
-        <textarea name="text" placeholder="Your Message Here..."></textarea> <br><br>
+        <textarea name="message" placeholder="Your Message Here..."></textarea> <br><br>
 
         <button>Submit</button>
 
