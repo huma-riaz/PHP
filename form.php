@@ -8,6 +8,9 @@ echo '<br><br><br><br>';
 $name = $_POST['name'];
 echo 'My name is ' . $name .'<br><br>';
 
+$id = $_POST['id'];
+echo 'My student id is ' . $id .'<br><br>';
+
 $age = $_POST['age'];
 echo 'My age is ' . $age . '<br><br>';
 
@@ -29,6 +32,5 @@ echo 'Message: ' . $message . '<br><br>';
 
 $query = "INSERT INTO crud (name, id, email, age, password, gender, city) values 
 ('$name', $id, '$email', $age, '$password', '$gender', '$city')";
-
 
 ?>
