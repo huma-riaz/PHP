@@ -1,7 +1,5 @@
 <?php
 
-include 'config.php';
-
 print_r($_POST); 
 echo '<br><br><br><br>';
 
@@ -28,9 +26,5 @@ echo 'My interests are : <br>' . implode(',' , $_POST['skills']) . '<br><br>';
 
 $message = $_POST['message'];
 echo 'Message: ' . $message . '<br><br>';
-
-
-$query = "INSERT INTO crud (name, id, email, age, password, gender, city) values 
-('$name', $id, '$email', $age, '$password', '$gender', '$city')";
 
 ?>
