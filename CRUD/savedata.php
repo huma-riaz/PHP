@@ -10,7 +10,7 @@ include 'conn.php';
 </head>
 <body>
   <br><br>  
-<a href="index.php">Create</a>
+<a href="form.php">Create</a>
  <br><br>
  <table border = '1' cellpadding = '8px'>
 
