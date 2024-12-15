@@ -27,7 +27,12 @@ if (isset($_POST['save_btn'])) {
 
     $query = "INSERT INTO myform (name,email,age) values ('$myname', '$myemail', $myage)";
 
-    $data = mysqli_query($con, $query);    
+    $res = mysqli_query($con, $query);    
+}
+if($res){
+    echo 'Data Save';
+}else {
+    echo 'Try Again';
 }
 ?>
 
