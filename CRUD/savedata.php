@@ -10,7 +10,7 @@ include 'conn.php';
 </head>
 <body>
   <br><br>  
-<a href="form.php">Create</a>
+<a href="form.php">Form</a>
  <br><br>
  <table border = '1' cellpadding = '8px'>
 
@@ -41,6 +41,7 @@ include 'conn.php';
    <td><?php echo $row['name']; ?></td>
    <td><?php echo $row['email']; ?></td>
    <td><?php echo $row['age']; ?></td>
+   <td><a href="update.php?id=<?php echo $row['id'];?>">Update</a></td>
 </tr>
 <?php
  $num ++;

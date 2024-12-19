@@ -15,7 +15,8 @@ include 'conn.php';
    <br> <input type="text" name="name" placeholder="Your Name"> <br><br>
     <input type="text" name="email" placeholder="Your Email"> <br><br>
     <input type="number" name="age" placeholder="Your Age"> <br><br>
-    <input type="submit" name="save_btn" value="Submit"> <br><br>
+    <input type="submit" name="save_btn" value="Submit">
+    <button><a href="savedata.php">View</a></button>
 </form>
 
 
