@@ -15,7 +15,15 @@ $first->salary = "20,000";
 $first-> work();
 // print_r($first);
 
+$second= new employee();
+$second->name = "Jack";
+$second->age = "28";
+$second->salary = "35,000";
+$second-> work();
 
+print_r($first);
+echo '<br>';
+print_r($second);
 
 
 ?>
