@@ -8,4 +8,7 @@ class second extends first{
     public $name = "Child Class";
 }
 
+$check = new second();
+echo $check->name;
+
 ?>
